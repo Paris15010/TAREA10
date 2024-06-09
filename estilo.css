@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: auto;
+}
+.cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+}
+#especial{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu1{
+    display: flex;
+    gap: 10rem;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu1 li{
+    list-style-type: none;
+}
+.menu1 a{
+    text-decoration: none;
+    color: black;
+}
+.cuerpo{
+    margin: auto;
+    display: flex;
+    width: 75%;
+    margin-top: 55px;
+}
+.tablas{
+    width: 80%;
+}
+.cuerpo h2{
+    text-align: center;
+}
+.cuerpo h3{
+    text-align: center;
+    font-size: 19px;
+}
+.title{
+    text-align: center;
+    background-color: rgb(211, 183, 148);
+    margin: 0;
+    padding: 3px;
+}
+.tabla-uno{
+    font-size: 13px;
+    margin-bottom: 30px;
+    border: none;
+    text-align: center;
+}
+.tf{
+    border: 1px solid brown;
+}
+.tabla-uno tr:nth-of-type(1) > th{
+    width: 10em;
+    color: white;
+    background-color: brown;
+}
+.empty{
+    background-color: brown;
+}
+.tabla-uno td{
+    background-color: rgb(211, 183, 148);
+}
+.tabla-uno tr:nth-of-type(2) > th,
+.tabla-uno tr:nth-of-type(3) > th,
+.tabla-uno tr:nth-of-type(4) > th,
+.tabla-uno tr:nth-of-type(5) > th,
+.tabla-uno tr:nth-of-type(6) > th,
+.tabla-uno tr:nth-of-type(7) > th,
+.tabla-uno tr:nth-of-type(8) > th,
+.tabla-uno tr:nth-of-type(9) > th,
+.tabla-uno tr:nth-of-type(10) > th{
+    background-color: brown;
+    color: white;
+}
+.second-title{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin: 0;
+    padding: 3px;
+    margin-top: 70px;
+}
+.tabla-dos{
+    font-size: 13px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+.tabla-dos tr:nth-of-type(1) > th{
+    width: 10em;
+    background-color: rgb(185, 125, 13);
+}
+.tabla-dos tr:nth-of-type(2) > th,
+.tabla-dos tr:nth-of-type(3) > th,
+.tabla-dos tr:nth-of-type(4) > th,
+.tabla-dos tr:nth-of-type(5) > th,
+.tabla-dos tr:nth-of-type(6) > th,
+.tabla-dos tr:nth-of-type(7) > th,
+.tabla-dos tr:nth-of-type(8) > th,
+.tabla-dos tr:nth-of-type(9) > th,
+.tabla-dos tr:nth-of-type(10) > th{
+    background-color: rgb(185, 125, 13);
+}
+.second-empty{
+    background-color: rgb(185, 125, 13);
+}
+.tabla-dos td{
+    background-color: brown;
+}
+.formulario{
+    background-color: bisque;
+    width: 25%;
+    border-radius: 8px;
+    position: relative;
+    left: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.formulario h1{
+    text-align: center;
+}
+.fm{
+    border: 1px solid brown;
+}
+p{
+    margin: 0;
+}
+.formulario select{
+    width: 100%;
+    font-size: 17px;
+}
+.formulario select option{
+    font-size: 17px;
+}
+.formulario input{
+    width: 100%;
+    font-size: 17px;
+}
+.button{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 10px
+}
+.boton{
+   background-color: red;
+   color: white;
+   padding: 5px;
+}
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: brown;
+    margin-top: 100px;
+    color: white;
+}
+.links ul{
+    position: relative;
+    right: 40px;
+}
+.links li{
+    list-style-type: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a img{
+    padding-top: 45px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+
